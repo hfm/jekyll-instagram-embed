@@ -16,7 +16,7 @@ module Jekyll
     def initialize(tag_name, hash, token)
       super
       @hash             = hash.strip
-      access_token_file = File.expand_path('../.instagram/access_token', File.dirname(__FILE__))
+      access_token_file = File.expand_path('.instagram/access_token', File.dirname(__FILE__))
       @access_token     = File.open(access_token_file).gets.strip
     end
     #
