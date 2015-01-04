@@ -19,7 +19,7 @@ module Jekyll
       access_token_file = File.expand_path('.instagram/access_token', File.dirname(__FILE__))
       @access_token     = File.open(access_token_file).gets.strip
     end
-    #
+
     def render(context)
       embed_code
     end
