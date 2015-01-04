@@ -18,3 +18,7 @@ When a short link has instagram.com/p/abcdefghij, a hash is **abcdefghij**.
 `access_token` file includes your **access_token** for instagram.
 
 See http://instagram.com/developer/authentication
+
+## LICENSE
+
+see [LICENSE](./LICENSE)
